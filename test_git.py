@@ -7,7 +7,7 @@ class Stack:
 
     def pop(self):
         return self.items.pop()
-
+# .м ждмьж\\\
     def peek(self):
         return self.items[len(self.items) - 1]
 
@@ -30,5 +30,9 @@ class Stack:
     def size(self):
         return len(self.items)
 
+
+class animals:
+    def __init__(self, name):
+        self.name = name
 
 
